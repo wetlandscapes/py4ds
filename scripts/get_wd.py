@@ -30,3 +30,25 @@ list(my_dict.keys())
 
 my_set = {"my", "stuff", "things", "lorem", "stuff"}
 my_set
+
+for i in range(5):
+    print(i)
+
+#Note that it prints the key and not the value
+for i in my_dict:
+    print(i)
+
+#Using just one placeholder with enumerate returns tupple: (<index>, <key>)
+for i in enumerate(my_dict):
+    print(i)
+
+for index, key in enumerate(my_dict):
+    print("Index: " + str(index))
+    print("Key: " + str(key))
+    print("Value: " + str(my_dict[key]))
+
+#Same for a list
+for index, key in enumerate(list(my_dict)):
+    print("Index: " + str(index))
+    print("Key: " + str(key))
+    print("Value: " + str(my_dict[key]))
