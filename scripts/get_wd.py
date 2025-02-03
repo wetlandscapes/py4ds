@@ -27,3 +27,6 @@ my_dict[0] # Error
 1 in my_dict # True
 
 list(my_dict.keys())
+
+my_set = {"my", "stuff", "things", "lorem", "stuff"}
+my_set
