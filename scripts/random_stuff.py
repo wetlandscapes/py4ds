@@ -116,3 +116,11 @@ other_circle.set_radius(r = 12)
 other_circle.radius # 12
 other_circle.color # 'blue'
 other_circle.name # 'Circle'
+
+
+my_lines = ["The first line\n", "Another line\n"]
+my_file = "data/example2.txt"
+
+with open(my_file, 'w') as file:
+	for line in my_lines:
+		file.write(line)
