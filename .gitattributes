@@ -1,3 +1,6 @@
 # SCM syntax highlighting
 pixi.lock linguist-language=YAML linguist-generated=true
 *.txt filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
